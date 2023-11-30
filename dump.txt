@@ -1,6 +1,6 @@
 
     create table test_entity (
         id bigint not null,
-        name varchar(255),
+        name varchar(255) not null,
         primary key (id)
     );
